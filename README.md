@@ -4,7 +4,6 @@
 [![Build Status](https://travis-ci.org/shinnn/broccoli-css-mqpacker.png?branch=master)](https://travis-ci.org/shinnn/broccoli-css-mqpacker)
 [![Dependency Status](https://david-dm.org/shinnn/broccoli-css-mqpacker.png)](https://david-dm.org/shinnn/broccoli-css-mqpacker)
 [![devDependency Status](https://david-dm.org/shinnn/broccoli-css-mqpacker/dev-status.png)](https://david-dm.org/shinnn/broccoli-css-mqpacker#info=devDependencies)
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/shinnn/broccoli-css-mqpacker/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
 [CSS MQPacker](https://github.com/hail2u/node-css-mqpacker) filter for [Broccoli](https://github.com/joliss/broccoli)
 
@@ -25,7 +24,9 @@ tree = packMediaQueries(tree, options);
 
 ## API
 
-### packMediaQueries(tree, options)
+### packMediaQueries(tree)
+
+Currently this plugin doesn't support source map.
 
 ## License
 
