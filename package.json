@@ -39,10 +39,10 @@
   ],
   "dependencies": {
     "broccoli-filter": "^0.1.0",
-    "css-mqpacker": "0.0.2"
+    "css-mqpacker": "0.0.3"
   },
   "devDependencies": {
-    "broccoli": "^0.2.0",
+    "broccoli": "^0.3.0",
     "mocha": "^1.17.1",
     "rimraf": "^2.2.6"
   }
