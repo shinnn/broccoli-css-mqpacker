@@ -38,11 +38,11 @@
     "combine"
   ],
   "dependencies": {
-    "broccoli-filter": "^0.1.0",
-    "css-mqpacker": "0.0.3"
+    "broccoli-filter": "^0.1.4",
+    "css-mqpacker": "0.0.2"
   },
   "devDependencies": {
-    "broccoli": "^0.3.0",
+    "broccoli": "^0.4.1",
     "mocha": "^1.17.1",
     "rimraf": "^2.2.6"
   }
