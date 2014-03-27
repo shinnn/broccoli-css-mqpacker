@@ -2,15 +2,17 @@
 
 var assert = require('assert');
 var fs = require('fs');
+var Q = require('q');
 
-var expected = fs.readFileSync('test/expected/multiple_mediaqueries.css');
+var readFile = Q.denodeify(fs.readFile);
 
-describe('broccoli-css-mqpacker', function () {
-  it('should run css-mqpacker', function (done) {
-    fs.readFile('test/actual/multiple_mediaqueries.css', function(err, data) {
-      if (err) done(err);
-      assert.strictEqual(data.toString(), expected.toString());
-      done();
+describe('broccoli-css-mqpacker', function() {
+  it('should run css-mqpacker', function() {
+    return Q.all([
+      readFile('test/actual/multiple_mediaqueries.css'),
+      readFile('test/expected/multiple_mediaqueries.css'),
+    ]).spread(function(actual, expected) {
+      assert.strictEqual(actual.toString(), expected.toString());
     });
   });
 });
