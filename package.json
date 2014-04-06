@@ -1,7 +1,7 @@
 {
   "name": "broccoli-css-mqpacker",
   "version": "0.1.0",
-  "description": "CSS MQPacker filter for Broccoli",
+  "description": "Media Queries combiner for Broccoli with CSS MQPacker",
   "main": "index.js",
   "scripts": {
     "lint": "jshint {,test/}*.js --reporter node_modules/jshint-stylish/stylish",
@@ -41,7 +41,7 @@
   ],
   "dependencies": {
     "broccoli-filter": "^0.1.6",
-    "css-mqpacker": "0.0.2"
+    "css-mqpacker": "0.1.0"
   },
   "devDependencies": {
     "broccoli": "^0.7.2",

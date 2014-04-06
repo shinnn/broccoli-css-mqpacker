@@ -1,7 +1,7 @@
 'use strict';
 
 var Filter = require('broccoli-filter');
-var packMediaQueries = require('css-mqpacker').pack;
+var csspacker = require('css-mqpacker');
 
 function MQPackerFilter(inputTree, options) {
   if (!(this instanceof MQPackerFilter)) {
@@ -19,7 +19,7 @@ MQPackerFilter.prototype.extensions = ['css'];
 MQPackerFilter.prototype.targetExtension = 'css';
 
 MQPackerFilter.prototype.processString = function(str) {
-  return packMediaQueries(str, this.options).css;
+  return csspacker.pack(str, this.options).css;
 };
 
 module.exports = MQPackerFilter;
