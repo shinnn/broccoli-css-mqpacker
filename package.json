@@ -1,6 +1,6 @@
 {
   "name": "broccoli-css-mqpacker",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Media Queries combiner for Broccoli with CSS MQPacker",
   "main": "index.js",
   "scripts": {
