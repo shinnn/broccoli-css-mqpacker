@@ -1,9 +1,9 @@
 # broccoli-css-mqpacker
 
-[![NPM version](https://badge.fury.io/js/broccoli-css-mqpacker.png)](http://badge.fury.io/js/broccoli-css-mqpacker)
-[![Build Status](https://travis-ci.org/shinnn/broccoli-css-mqpacker.png?branch=master)](https://travis-ci.org/shinnn/broccoli-css-mqpacker)
-[![Dependency Status](https://david-dm.org/shinnn/broccoli-css-mqpacker.png)](https://david-dm.org/shinnn/broccoli-css-mqpacker)
-[![devDependency Status](https://david-dm.org/shinnn/broccoli-css-mqpacker/dev-status.png)](https://david-dm.org/shinnn/broccoli-css-mqpacker#info=devDependencies)
+[![NPM version](https://badge.fury.io/js/broccoli-css-mqpacker.svg)](http://badge.fury.io/js/broccoli-css-mqpacker)
+[![Build Status](https://travis-ci.org/shinnn/broccoli-css-mqpacker.svg?branch=master)](https://travis-ci.org/shinnn/broccoli-css-mqpacker)
+[![Dependency Status](https://david-dm.org/shinnn/broccoli-css-mqpacker.svg)](https://david-dm.org/shinnn/broccoli-css-mqpacker)
+[![devDependency Status](https://david-dm.org/shinnn/broccoli-css-mqpacker/dev-status.svg)](https://david-dm.org/shinnn/broccoli-css-mqpacker#info=devDependencies)
 
 [CSS MQPacker](https://github.com/hail2u/node-css-mqpacker) filter for [Broccoli](https://github.com/joliss/broccoli)
 
