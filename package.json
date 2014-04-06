@@ -4,9 +4,10 @@
   "description": "CSS MQPacker filter for Broccoli",
   "main": "index.js",
   "scripts": {
-    "lint": "jshint *.js test/*.js --reporter node_modules/jshint-stylish/stylish.js",
-    "build": "npm run-script lint && rimraf test/actual && broccoli build test/actual",
-    "test": "npm run-script build && mocha --reporter spec test/test.js"
+    "lint": "jshint {,test/}*.js --reporter node_modules/jshint-stylish/stylish",
+    "build": "rimraf test/actual && broccoli build test/actual",
+    "pretest": "npm run-script lint && npm run-script build",
+    "test": "mocha --reporter spec test/test.js"
   },
   "repository": {
     "type": "git",
@@ -39,15 +40,15 @@
     "combine"
   ],
   "dependencies": {
-    "broccoli-filter": "^0.1.4",
+    "broccoli-filter": "^0.1.6",
     "css-mqpacker": "0.0.2"
   },
   "devDependencies": {
-    "broccoli": "^0.5.0",
-    "jshint": "^2.4.4",
+    "broccoli": "^0.7.2",
+    "jshint": "^2.5.0",
     "jshint-stylish": "^0.1.5",
     "mocha": "^1.18.2",
-    "q": "^1.0.1",
+    "q": "^2.0.1",
     "rimraf": "^2.2.6"
   }
 }
