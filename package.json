@@ -4,10 +4,11 @@
   "description": "Media Queries combiner for Broccoli with CSS MQPacker",
   "main": "index.js",
   "scripts": {
-    "lint": "jshint {,test/}*.js --reporter node_modules/jshint-stylish/stylish",
+    "lint": "jshint *.js test/*.js --reporter node_modules/jshint-stylish/stylish",
     "build": "rimraf test/actual && broccoli build test/actual",
-    "pretest": "npm run-script lint && npm run-script build",
-    "test": "mocha --reporter spec test/test.js"
+    "pretest": "npm run-script lint & npm run-script build",
+    "test": "mocha --reporter spec test/test.js",
+    "posttest": "rimraf tmp"
   },
   "repository": {
     "type": "git",
