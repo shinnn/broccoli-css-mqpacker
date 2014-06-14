@@ -4,17 +4,17 @@
   position: absolute;
 }
 
-@media (min-width: 2px) {
-  b {
-    z-index: 2;
-  }
-}
-
 @media (min-width: 1px) {
   a {
     z-index: 1;
   }
 
+  b {
+    z-index: 2;
+  }
+}
+
+@media (min-width: 2px) {
   b {
     z-index: 2;
   }
