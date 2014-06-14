@@ -7,7 +7,7 @@ function MQPackerFilter(inputTree, options) {
   if (!(this instanceof MQPackerFilter)) {
     return new MQPackerFilter(inputTree, options);
   }
-  
+
   this.inputTree = inputTree;
   this.options = options || {};
 }
