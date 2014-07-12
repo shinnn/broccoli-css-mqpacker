@@ -6,7 +6,7 @@
   "scripts": {
     "lint": "jshint *.js test/*.js --reporter node_modules/jshint-stylish/stylish",
     "build": "rimraf test/actual && broccoli build test/actual",
-    "pretest": "npm run-script lint & npm run-script build",
+    "pretest": "${npm_package_scripts_lint} && npm run-script build",
     "test": "mocha test/test.js --reporter spec --timeout 300",
     "posttest": "rimraf tmp"
   },
