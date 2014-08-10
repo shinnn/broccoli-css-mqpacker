@@ -42,13 +42,13 @@
   ],
   "dependencies": {
     "broccoli-filter": "^0.1.6",
-    "css-mqpacker": "^0.1.4"
+    "css-mqpacker": "^1.0.0"
   },
   "devDependencies": {
     "broccoli": "^0.12.3",
-    "jshint": "^2.5.2",
+    "jshint": "^2.5.3",
     "jshint-stylish": "^0.4.0",
-    "mocha": "^1.21.3",
+    "mocha": "^1.21.4",
     "q": "^2.0.2",
     "rimraf": "^2.2.8"
   }
