@@ -1,8 +1,7 @@
 {
   "name": "broccoli-css-mqpacker",
   "version": "0.2.1",
-  "description": "Media Queries combiner for Broccoli with CSS MQPacker",
-  "main": "index.js",
+  "description": "Media Queries combiner for Broccoli, using CSS MQPacker",
   "scripts": {
     "lint": "jshint *.js test/*.js --reporter node_modules/jshint-stylish/stylish",
     "build": "rimraf test/actual && broccoli build test/actual",
@@ -29,8 +28,10 @@
   },
   "homepage": "https://github.com/shinnn/broccoli-css-mqpacker",
   "keywords": [
-    "media queries",
+    "media-queries",
     "css",
+    "style",
+    "stylesheet",
     "optimization",
     "optimizer",
     "optimize",
