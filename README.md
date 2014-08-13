@@ -5,11 +5,11 @@
 [![Dependency Status](https://david-dm.org/shinnn/broccoli-css-mqpacker.svg)](https://david-dm.org/shinnn/broccoli-css-mqpacker)
 [![devDependency Status](https://david-dm.org/shinnn/broccoli-css-mqpacker/dev-status.svg)](https://david-dm.org/shinnn/broccoli-css-mqpacker#info=devDependencies)
 
-[CSS MQPacker](https://github.com/hail2u/node-css-mqpacker) filter for [Broccoli](https://github.com/joliss/broccoli)
+[CSS MQPacker](https://github.com/hail2u/node-css-mqpacker) filter for [Broccoli](https://github.com/broccolijs/broccoli)
 
 ## Installation
 
-Install with [npm](https://www.npmjs.org/). (Make sure you have installed [Node](http://nodejs.org/).)
+[Install with npm](https://www.npmjs.org/doc/cli/npm-install.html). (Make sure you have installed [Node](http://nodejs.org/).)
 
 ```
 npm i --save-dev broccoli-css-mqpacker
