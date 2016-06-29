@@ -3,7 +3,7 @@
   "version": "0.2.1",
   "description": "Media Queries combiner for Broccoli, using CSS MQPacker",
   "scripts": {
-    "lint": "jshint *.js test/*.js --reporter node_modules/jshint-stylish/stylish",
+    "lint": "jshint *.js test/*.js --reporter node_modules/jshint-stylish",
     "build": "rimraf test/actual && broccoli build test/actual",
     "pretest": "${npm_package_scripts_lint} && npm run-script build",
     "test": "mocha test/test.js --reporter spec --timeout 300",
@@ -42,15 +42,16 @@
     "combine"
   ],
   "dependencies": {
-    "broccoli-filter": "^0.1.6",
-    "css-mqpacker": "^1.0.0"
+    "broccoli-filter": "^1.2.2",
+    "css-mqpacker": "^5.0.0"
   },
   "devDependencies": {
-    "broccoli": "^0.12.3",
+    "broccoli": "^0.16.9",
+    "css": "^2.2.1",
     "jshint": "^2.5.3",
-    "jshint-stylish": "^0.4.0",
-    "mocha": "^1.21.4",
-    "q": "^2.0.2",
-    "rimraf": "^2.2.8"
+    "jshint-stylish": "^2.0.0",
+    "mocha": "^2.0.0",
+    "q": "^1.4.1",
+    "rimraf": "^2.5.2"
   }
 }
