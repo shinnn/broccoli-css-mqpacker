@@ -8,7 +8,8 @@ function MQPackerFilter(inputTree, options) {
     return new MQPackerFilter(inputTree, options);
   }
 
-  this.inputTree = inputTree;
+  Filter.call(this, inputTree, options);
+
   this.options = options || {};
 }
 
